@@ -3,7 +3,7 @@ a {
 }
 
 .jumbotron {
-    background-image: url(../images/jumbotron.jpg);
+    background-image: url(../images/ChristmasDecorations.jpg);
     min-height: calc( 100vh );
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,10 +12,19 @@ a {
     margin-bottom: 0;
 }
 
-.jumbotron hr {
-    border-color: white;
+
+.jumbotron p {
+    color: #fff;
+    font-weight: 100;
+    text-shadow: 0px 0px 3px #000;
+    max-width: 400px;
 }
 
-.jumbotron * {
+.jumbotron h1, p.lead {
     color: white;
+    text-shadow: 3px 3px 5px #000;
+}
+
+.no-break {
+    white-space: nowrap;
 }
